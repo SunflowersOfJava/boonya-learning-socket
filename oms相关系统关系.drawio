@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T05:31:15.452Z" agent="5.0 (Windows)" etag="r2TFch_aKNvebHzRsUAx" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-07T05:49:31.204Z" agent="5.0 (Windows)" etag="h9zWMQnafjoC8aki3X9u" version="20.4.0" type="github">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="第 1 页">
     <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,6 +111,9 @@
         </mxCell>
         <mxCell id="w3x3XJDuAIgneni4JfPE-15" value="联思基础表(弃用)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#CCCCCC;labelBorderColor=none;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="393.5" y="1030" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w3x3XJDuAIgneni4JfPE-33" value="+生产基础表" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;labelBorderColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="70" y="990" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
