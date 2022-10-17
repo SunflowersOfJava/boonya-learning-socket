@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T08:12:45.480Z" agent="5.0 (Windows)" etag="oSD0KhfWXtstW_hQWA8n" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-17T08:13:41.761Z" agent="5.0 (Windows)" etag="XlYgS5JqIMtnaLzlaI4w" version="20.4.0" type="github" pages="3">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="bomb服务独立">
     <mxGraphModel dx="1015" dy="2874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -128,6 +128,20 @@
         </mxCell>
         <mxCell id="MrM3WiDKJ_GR7TqslKwe-16" value="+生产基础表" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;labelBorderColor=none;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="129" y="270" width="110" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="m9IaujtpdmeexZP6YVUu" name="存储过程抽象处理">
+    <mxGraphModel dx="1015" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wmfLYd95STNjSgaDL_Ot-1" value="生产分类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wmfLYd95STNjSgaDL_Ot-2" value="物料编码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="80" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
