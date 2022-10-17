@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T08:21:28.821Z" agent="5.0 (Windows)" etag="NohE-evGoLrQOw4Qqxhg" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-17T08:23:57.752Z" agent="5.0 (Windows)" etag="TKZzfdp1FQ8sDijeWWaN" version="20.4.0" type="github" pages="3">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="bomb服务独立">
     <mxGraphModel dx="1015" dy="2874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -179,6 +179,12 @@
         </mxCell>
         <mxCell id="wmfLYd95STNjSgaDL_Ot-10" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="230" y="330" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="50TFe47V193lZdErCjzW-1" value="" style="shape=link;html=1;rounded=0;dashed=1;strokeColor=#FF3333;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="60" y="40" as="sourcePoint" />
+            <mxPoint x="470" y="40" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
