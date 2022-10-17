@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T08:20:37.709Z" agent="5.0 (Windows)" etag="SFGrrkixtqRAy1nwgY4Z" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-17T08:21:28.821Z" agent="5.0 (Windows)" etag="NohE-evGoLrQOw4Qqxhg" version="20.4.0" type="github" pages="3">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="bomb服务独立">
     <mxGraphModel dx="1015" dy="2874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,7 +146,7 @@
         <mxCell id="wmfLYd95STNjSgaDL_Ot-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wmfLYd95STNjSgaDL_Ot-2" target="wmfLYd95STNjSgaDL_Ot-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wmfLYd95STNjSgaDL_Ot-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="wmfLYd95STNjSgaDL_Ot-2" target="wmfLYd95STNjSgaDL_Ot-8">
+        <mxCell id="wmfLYd95STNjSgaDL_Ot-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF3333;dashed=1;" edge="1" parent="1" source="wmfLYd95STNjSgaDL_Ot-2" target="wmfLYd95STNjSgaDL_Ot-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wmfLYd95STNjSgaDL_Ot-2" value="物料编码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
