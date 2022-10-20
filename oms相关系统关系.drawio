@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T09:58:07.126Z" agent="5.0 (Windows)" etag="9rPUK1UMJvJP5V0PWJBB" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-20T09:59:23.526Z" agent="5.0 (Windows)" etag="BoxaTzh64iCmkWhRBhrF" version="20.4.0" type="github" pages="3">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="bomb服务独立">
     <mxGraphModel dx="1038" dy="4043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,7 +78,7 @@
         <mxCell id="MrM3WiDKJ_GR7TqslKwe-1" value="&lt;div&gt;OMS&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;物料同步额外的字段：&lt;/div&gt;&lt;div&gt;长、宽、高、生产分类&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="80" y="100" width="210" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="MrM3WiDKJ_GR7TqslKwe-2" value="物料表" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#FF3333;" parent="1" vertex="1">
+        <mxCell id="MrM3WiDKJ_GR7TqslKwe-2" value="+物料表" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="125" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MrM3WiDKJ_GR7TqslKwe-3" value="&lt;div&gt;BOMB&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;拆单后的数据处理动作、程序设计和优化&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
@@ -131,11 +131,16 @@
         <mxCell id="MrM3WiDKJ_GR7TqslKwe-16" value="+生产基础表" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;labelBorderColor=none;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="129" y="270" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KPDuq7iEaKvWwrRqRoJj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KPDuq7iEaKvWwrRqRoJj-1" target="MrM3WiDKJ_GR7TqslKwe-3">
+        <mxCell id="KPDuq7iEaKvWwrRqRoJj-2" value="重构不合理的存储过程实现" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KPDuq7iEaKvWwrRqRoJj-1" target="MrM3WiDKJ_GR7TqslKwe-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KPDuq7iEaKvWwrRqRoJj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.552;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KPDuq7iEaKvWwrRqRoJj-1" target="MrM3WiDKJ_GR7TqslKwe-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KPDuq7iEaKvWwrRqRoJj-4" value="维护生产分类和物料、匹配规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KPDuq7iEaKvWwrRqRoJj-3">
+          <mxGeometry x="-0.3402" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="KPDuq7iEaKvWwrRqRoJj-1" value="设计" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="485" y="510" width="80" height="80" as="geometry" />
