@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T07:46:28.324Z" agent="5.0 (Windows)" etag="Ko75ytlxDxTDbUdRbl5J" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-20T07:46:59.416Z" agent="5.0 (Windows)" etag="PMUcja8A-rsuyrotjDcZ" version="20.4.0" type="github" pages="3">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="bomb服务独立">
     <mxGraphModel dx="1038" dy="2874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ajl7XlEclkEX4MVL0un6-1" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+        <mxCell id="Ajl7XlEclkEX4MVL0un6-1" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="300" y="-2040" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ajl7XlEclkEX4MVL0un6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Ajl7XlEclkEX4MVL0un6-2" target="Ajl7XlEclkEX4MVL0un6-1" edge="1">
@@ -56,13 +56,13 @@
         <mxCell id="Ajl7XlEclkEX4MVL0un6-6" value="sqlserver" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="300" y="-1800" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ajl7XlEclkEX4MVL0un6-13" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+        <mxCell id="Ajl7XlEclkEX4MVL0un6-13" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="120" y="-2040" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ajl7XlEclkEX4MVL0un6-14" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+        <mxCell id="Ajl7XlEclkEX4MVL0un6-14" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="590" y="-2040" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mybRUjiwXN9lIVhRDb3T-1" value="mongo" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+        <mxCell id="mybRUjiwXN9lIVhRDb3T-1" value="mongo" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="591" y="-2270" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
