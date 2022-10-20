@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T09:55:17.029Z" agent="5.0 (Windows)" etag="qlxB5TSuFfMIwGFZ-4jd" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-20T09:55:50.652Z" agent="5.0 (Windows)" etag="qDJmxU21xhZKOmOZD5SR" version="20.4.0" type="github" pages="3">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="bomb服务独立">
     <mxGraphModel dx="1038" dy="4043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,6 +59,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Jwkcii6x6uwiXqLa5yYm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BbV9ipTeZK87WqjTc-pe-4" target="Ajl7XlEclkEX4MVL0un6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jwkcii6x6uwiXqLa5yYm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BbV9ipTeZK87WqjTc-pe-4" target="Ajl7XlEclkEX4MVL0un6-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BbV9ipTeZK87WqjTc-pe-4" value="Oauth Provider" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
