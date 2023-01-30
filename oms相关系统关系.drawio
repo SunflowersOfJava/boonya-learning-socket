@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T13:32:35.691Z" agent="5.0 (Windows)" etag="8kK5ksT4h2RtgVXfe5IO" version="20.8.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-30T13:33:28.239Z" agent="5.0 (Windows)" etag="U2obaiTGcOBtFdRx9E9m" version="20.8.13" type="github" pages="5">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="bomb服务独立">
     <mxGraphModel dx="1050" dy="4045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -291,7 +291,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="ET1_vjyl0RYKVXIGvJac" name="BOMB-IMOS-OMS-SALES交互">
+  <diagram id="ET1_vjyl0RYKVXIGvJac" name="2023-自动报价模型">
     <mxGraphModel dx="1050" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -553,6 +553,148 @@
         </mxCell>
         <mxCell id="Zabej4rGg1E6zIC9u1On-56" value="&lt;b&gt;审计&lt;/b&gt;&lt;br&gt;自动审图" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="-210" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lUWQNEOwqZ1kUT5OG4wF" name="2023-自动报价模型转换">
+    <mxGraphModel dx="1050" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-1" value="酷家乐" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-2" value="IMOS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-3" value="JSON" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="344" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-4" value="XML" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="BEzOrVnfPYpdj3p_Fv82-1" target="BEzOrVnfPYpdj3p_Fv82-3" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="450" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" target="BEzOrVnfPYpdj3p_Fv82-2" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="242.5" as="sourcePoint" />
+            <mxPoint x="580" y="237.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-7" value="properties" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-8" value="p1:克诺斯邦精板-柜体-K013砂榉-36-2800*2070*36_工艺参数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="BEzOrVnfPYpdj3p_Fv82-7">
+          <mxGeometry y="30" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-9" value="infos" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="485" y="350" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-10" value="info1:克诺斯邦精板-柜体-K013砂榉-36-2800*2070*36_工艺参数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="BEzOrVnfPYpdj3p_Fv82-9">
+          <mxGeometry y="30" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.329;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.568;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="BEzOrVnfPYpdj3p_Fv82-7" target="BEzOrVnfPYpdj3p_Fv82-3" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="340" as="sourcePoint" />
+            <mxPoint x="340" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-12" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" source="BEzOrVnfPYpdj3p_Fv82-9" target="BEzOrVnfPYpdj3p_Fv82-4" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="340" as="sourcePoint" />
+            <mxPoint x="686.1599999999999" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-13" value="properties" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="450" width="370" height="120" as="geometry">
+            <mxRectangle x="30" y="440" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-14" value="p1:克诺斯邦精板-柜体" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="BEzOrVnfPYpdj3p_Fv82-13">
+          <mxGeometry y="30" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-15" value="&lt;span style=&quot;&quot;&gt;p2:K013砂榉-36-2800*2070*36&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BEzOrVnfPYpdj3p_Fv82-13">
+          <mxGeometry y="60" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-16" value="p3:&lt;span style=&quot;&quot;&gt;工艺参数&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BEzOrVnfPYpdj3p_Fv82-13">
+          <mxGeometry y="90" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-17" value="infos" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="485" y="450" width="370" height="120" as="geometry">
+            <mxRectangle x="30" y="440" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-18" value="info1:克诺斯邦精板-柜体" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="BEzOrVnfPYpdj3p_Fv82-17">
+          <mxGeometry y="30" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-19" value="&lt;span style=&quot;&quot;&gt;info2:K013砂榉-36-2800*2070*36&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BEzOrVnfPYpdj3p_Fv82-17">
+          <mxGeometry y="60" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-20" value="info3:&lt;span style=&quot;&quot;&gt;工艺参数&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BEzOrVnfPYpdj3p_Fv82-17">
+          <mxGeometry y="90" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-21" value="转换？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-22" value="properties" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="620" width="370" height="120" as="geometry">
+            <mxRectangle x="30" y="440" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-23" value="p1:克诺斯邦精板" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="BEzOrVnfPYpdj3p_Fv82-22">
+          <mxGeometry y="30" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-24" value="&lt;span style=&quot;&quot;&gt;p2:K013砂榉&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BEzOrVnfPYpdj3p_Fv82-22">
+          <mxGeometry y="60" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-25" value="p3:&lt;span style=&quot;&quot;&gt;工艺参数&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BEzOrVnfPYpdj3p_Fv82-22">
+          <mxGeometry y="90" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-26" value="infos" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="480" y="620" width="370" height="120" as="geometry">
+            <mxRectangle x="30" y="440" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-27" value="infox:克诺斯邦精板" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="BEzOrVnfPYpdj3p_Fv82-26">
+          <mxGeometry y="30" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-28" value="&lt;span style=&quot;&quot;&gt;infoy:K013砂榉&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BEzOrVnfPYpdj3p_Fv82-26">
+          <mxGeometry y="60" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-29" value="infoz:&lt;span style=&quot;&quot;&gt;工艺参数&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BEzOrVnfPYpdj3p_Fv82-26">
+          <mxGeometry y="90" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-30" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.1429" y="-10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450.16999999999996" y="670" as="sourcePoint" />
+            <mxPoint x="450" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450.16999999999996" y="620" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-31" value="最终目的" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BEzOrVnfPYpdj3p_Fv82-30">
+          <mxGeometry x="0.1979" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.607;exitY=1.028;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.409;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="BEzOrVnfPYpdj3p_Fv82-3" target="BEzOrVnfPYpdj3p_Fv82-21" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="430" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEzOrVnfPYpdj3p_Fv82-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="BEzOrVnfPYpdj3p_Fv82-21" target="BEzOrVnfPYpdj3p_Fv82-4" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="378.55999999999983" y="292.24" as="sourcePoint" />
+            <mxPoint x="437.4000000000001" y="396.64" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
