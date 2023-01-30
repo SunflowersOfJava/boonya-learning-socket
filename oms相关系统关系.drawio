@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T03:02:59.392Z" agent="5.0 (Windows)" etag="kUr7ruRpeFXdB2pEh2vI" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-30T06:03:14.644Z" agent="5.0 (Windows)" etag="bih5F1xnX8fUYF2M0upa" version="20.8.13" type="github" pages="5">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="bomb服务独立">
     <mxGraphModel dx="1050" dy="4045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -429,6 +429,9 @@
         </mxCell>
         <mxCell id="816tzz3vf455XlVjnZX5-38" value="...." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="816tzz3vf455XlVjnZX5-35">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="816tzz3vf455XlVjnZX5-39" value="&lt;b&gt;1、datax preSql示例，预先处理SQL解决ID重复问题：&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&quot;preSql&quot; : [&quot;delete from C_Order where&amp;nbsp; Id in ( select co.id from c_order co&amp;nbsp; where DateDiff(dd, co.SyncOrderDateTime, &#39;${synDate}&#39;) = 0 )&quot;],&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;2、需要将拆单明细和云联思数据库字段进行对应，方便核对&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;同步的字段要跟云联思保持一致，如果不一致需要不断地对数据进行修复处理&lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="990" width="740" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
