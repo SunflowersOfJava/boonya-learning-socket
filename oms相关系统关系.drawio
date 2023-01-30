@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T02:21:56.766Z" agent="5.0 (Windows)" etag="c6b7GfPF-GCeuQU29Wy9" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-30T02:29:05.840Z" agent="5.0 (Windows)" etag="yUI2jE8_Vfq-85-uoJA6" version="20.8.13" type="github" pages="5">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="bomb服务独立">
     <mxGraphModel dx="1050" dy="4045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -305,16 +305,56 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="SoOhv4sDXpB5BAT2kSEy" name="数据同步与比较">
-    <mxGraphModel dx="1877" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="SoOhv4sDXpB5BAT2kSEy" name="联思数据同步与比较">
+    <mxGraphModel dx="1877" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="816tzz3vf455XlVjnZX5-1" value="&lt;div&gt;工厂远程连接：171.221.246.111:8011 Administrator&amp;nbsp;&amp;nbsp; Liweijia123&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;虚拟连接：101.200.193.33:9389&amp;nbsp;&amp;nbsp;&amp;nbsp; bTPx0GXo_administrator&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; d7WftmqStXmwsMZJ&lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="816tzz3vf455XlVjnZX5-1" value="&lt;div&gt;工厂远程连接：171.221.246.111:8011 Administrator&amp;nbsp;&amp;nbsp; Liweijia123&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;云联思连接：101.200.193.33:9389&amp;nbsp;&amp;nbsp;&amp;nbsp; bTPx0GXo_administrator&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; d7WftmqStXmwsMZJ&lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;fontColor=#3333FF;" vertex="1" parent="1">
           <mxGeometry x="-10" y="30" width="570" height="150" as="geometry" />
         </mxCell>
         <mxCell id="816tzz3vf455XlVjnZX5-2" value="服务器信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry y="-30" width="120" height="60" as="geometry" />
+          <mxGeometry x="-160" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="816tzz3vf455XlVjnZX5-3" value="本地联思" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="816tzz3vf455XlVjnZX5-4" value="云化联思" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="816tzz3vf455XlVjnZX5-5" value="同步数据库数据" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="816tzz3vf455XlVjnZX5-6" value="同步文件数据(结构不同)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="350" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="816tzz3vf455XlVjnZX5-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="816tzz3vf455XlVjnZX5-3" target="816tzz3vf455XlVjnZX5-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="310" as="sourcePoint" />
+            <mxPoint x="180" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="816tzz3vf455XlVjnZX5-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="816tzz3vf455XlVjnZX5-3" target="816tzz3vf455XlVjnZX5-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="400" as="sourcePoint" />
+            <mxPoint x="190" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="816tzz3vf455XlVjnZX5-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="816tzz3vf455XlVjnZX5-5" target="816tzz3vf455XlVjnZX5-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="310" as="sourcePoint" />
+            <mxPoint x="400" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="816tzz3vf455XlVjnZX5-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="816tzz3vf455XlVjnZX5-6" target="816tzz3vf455XlVjnZX5-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="250" as="sourcePoint" />
+            <mxPoint x="460" y="310" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="816tzz3vf455XlVjnZX5-11" value="数据同步一阶段" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
