@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T07:11:34.520Z" agent="5.0 (Windows)" etag="5shteGzXkyJEHyTwFizh" version="20.8.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-30T07:12:10.450Z" agent="5.0 (Windows)" etag="LCYggKwXIWytsAeqaZNi" version="20.8.13" type="github" pages="3">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="bomb服务独立">
     <mxGraphModel dx="1050" dy="4045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,7 +87,7 @@
         <mxCell id="rcIV1xa0oB1xKmW3wS12-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="rcIV1xa0oB1xKmW3wS12-3" target="rcIV1xa0oB1xKmW3wS12-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rcIV1xa0oB1xKmW3wS12-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontColor=#000000;" edge="1" parent="1" source="rcIV1xa0oB1xKmW3wS12-3" target="rcIV1xa0oB1xKmW3wS12-14">
+        <mxCell id="rcIV1xa0oB1xKmW3wS12-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="rcIV1xa0oB1xKmW3wS12-3" target="rcIV1xa0oB1xKmW3wS12-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rcIV1xa0oB1xKmW3wS12-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontColor=#000000;" edge="1" parent="1" source="rcIV1xa0oB1xKmW3wS12-3" target="rcIV1xa0oB1xKmW3wS12-13">
@@ -123,7 +123,7 @@
         <mxCell id="rcIV1xa0oB1xKmW3wS12-10" value="禁用" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="460" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rcIV1xa0oB1xKmW3wS12-13" value="IK分词器" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="rcIV1xa0oB1xKmW3wS12-13" value="IK分词器(弃用)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="294" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rcIV1xa0oB1xKmW3wS12-14" value="Lucene" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
