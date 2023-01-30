@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T02:37:20.699Z" agent="5.0 (Windows)" etag="dfyVYJsYlL4vimbMvJXi" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-30T02:38:07.446Z" agent="5.0 (Windows)" etag="Wzen1PpJIme96wArgITS" version="20.8.13" type="github" pages="5">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="bomb服务独立">
     <mxGraphModel dx="1050" dy="4045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -398,7 +398,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="816tzz3vf455XlVjnZX5-23" value="数据是否一致" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="610" y="585" width="80" height="80" as="geometry" />
+          <mxGeometry x="600" y="580" width="100" height="90" as="geometry" />
         </mxCell>
         <mxCell id="816tzz3vf455XlVjnZX5-26" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="590" y="750" width="120" height="60" as="geometry" />
