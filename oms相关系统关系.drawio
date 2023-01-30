@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T07:00:26.579Z" agent="5.0 (Windows)" etag="JAWN3QcqBt3TYz9U8mXe" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-30T07:01:27.516Z" agent="5.0 (Windows)" etag="vN_RQKSP0oRSOc2gGrh5" version="20.8.13" type="github" pages="5">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="bomb服务独立">
     <mxGraphModel dx="1050" dy="4045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,7 +239,7 @@
         <mxCell id="TWMYuL596vIEF6mqc4Mg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="gialv2ARUVK_0_g-sfXM-2" target="gialv2ARUVK_0_g-sfXM-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gialv2ARUVK_0_g-sfXM-2" value="原始数据" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="gialv2ARUVK_0_g-sfXM-2" value="Excdl原始数据" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="294" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gialv2ARUVK_0_g-sfXM-4" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -251,7 +251,7 @@
         <mxCell id="gialv2ARUVK_0_g-sfXM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gialv2ARUVK_0_g-sfXM-6" target="gialv2ARUVK_0_g-sfXM-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gialv2ARUVK_0_g-sfXM-6" value="设置报价属性" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="gialv2ARUVK_0_g-sfXM-6" value="Schema设置报价属性" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="294" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gialv2ARUVK_0_g-sfXM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="gialv2ARUVK_0_g-sfXM-9" target="gialv2ARUVK_0_g-sfXM-4" edge="1">
@@ -306,7 +306,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SoOhv4sDXpB5BAT2kSEy" name="联思数据同步与比较">
-    <mxGraphModel dx="1877" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
