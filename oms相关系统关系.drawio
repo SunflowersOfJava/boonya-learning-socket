@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T09:45:58.373Z" agent="5.0 (Windows)" etag="auFar2K1u5889VMk2WZF" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T09:53:17.111Z" agent="5.0 (Windows)" etag="rfMU7bGtJu0ZgzCJ1HsA" version="20.8.13" type="github" pages="5">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="2022bomb服务独立">
     <mxGraphModel dx="1050" dy="4045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -296,7 +296,7 @@
         <mxCell id="816tzz3vf455XlVjnZX5-14" value="本地云联思数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="816tzz3vf455XlVjnZX5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" parent="1" source="816tzz3vf455XlVjnZX5-17" target="816tzz3vf455XlVjnZX5-23" edge="1">
+        <mxCell id="816tzz3vf455XlVjnZX5-24" value="数据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;" parent="1" source="816tzz3vf455XlVjnZX5-17" target="816tzz3vf455XlVjnZX5-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="816tzz3vf455XlVjnZX5-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF6B2B;dashed=1;" parent="1" source="816tzz3vf455XlVjnZX5-17" target="816tzz3vf455XlVjnZX5-46" edge="1">
@@ -305,23 +305,26 @@
         <mxCell id="816tzz3vf455XlVjnZX5-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontColor=#FF6B2B;" parent="1" source="816tzz3vf455XlVjnZX5-17" target="816tzz3vf455XlVjnZX5-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="816tzz3vf455XlVjnZX5-17" value="数据校验核对" style="ellipse;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="2NtN122uRhf_IB1GxrwC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#FF6B2B;" edge="1" parent="1" source="816tzz3vf455XlVjnZX5-17" target="2NtN122uRhf_IB1GxrwC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="816tzz3vf455XlVjnZX5-17" value="校验核对" style="ellipse;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="400" y="688" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="816tzz3vf455XlVjnZX5-27" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="816tzz3vf455XlVjnZX5-23" target="816tzz3vf455XlVjnZX5-26" edge="1">
+        <mxCell id="816tzz3vf455XlVjnZX5-27" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="816tzz3vf455XlVjnZX5-23" target="816tzz3vf455XlVjnZX5-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="816tzz3vf455XlVjnZX5-30" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="816tzz3vf455XlVjnZX5-23" target="816tzz3vf455XlVjnZX5-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="816tzz3vf455XlVjnZX5-23" value="数据是否一致" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="600" y="683" width="100" height="90" as="geometry" />
+          <mxGeometry x="600" y="618.5" width="100" height="90" as="geometry" />
         </mxCell>
         <mxCell id="816tzz3vf455XlVjnZX5-26" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="590" y="853" width="120" height="60" as="geometry" />
+          <mxGeometry x="840" y="698" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="816tzz3vf455XlVjnZX5-29" value="完善BOMB拆单数据" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="590" y="533" width="120" height="80" as="geometry" />
+          <mxGeometry x="590" y="490" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="816tzz3vf455XlVjnZX5-31" value="c_order" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry y="812" width="120" height="120" as="geometry" />
@@ -348,7 +351,7 @@
           <mxGeometry y="90" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="816tzz3vf455XlVjnZX5-39" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;1、数据同步阶段：&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;a.同步问题解决方法 通过datax 定义preSql预先处理SQL解决ID重复问题处理：&lt;/b&gt;&lt;/div&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;示例：&quot;preSql&quot; : [&quot;delete from C_Order where&amp;nbsp; Id in ( select co.id from c_order co&amp;nbsp; where DateDiff(dd, co.SyncOrderDateTime, &#39;${synDate}&#39;) = 0 )&quot;]，&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;b.preSql衍生问题，通过排查表ER关系图设置同步先后顺序：&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;主外键约束对同步成功与否也存在制约关系，需要将外键引用先删除掉然后在去同步删除主表记录&lt;b style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;c.比对本地联思和云化联思上的数据表结构数据是否一致&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; color=&quot;#FF6B2B&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;注：如表结构变动同步失败需要手动修改云联思表结构和Datax 同步任务的json配置，需要联思结构一一对应。&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot; color=&quot;#FF6B2B&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;联思库表数据核对：需要找对应合同进行数据比对。&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; color=&quot;#FF6B2B&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;d.seafile文件同步失败重试redo：进行重试文件上传&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;e.检查本地联思和云化联思的库表结构是否一致，不一致需要发邮件通知到研发&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;&lt;font color=&quot;#FF6B2B&quot;&gt;及时发现问题，调整完善处理&lt;/font&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;f.程序自行修复两边表结构才行，表结构要做检查处理，字段的顺序是要严格遵循的&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; color=&quot;#FF6B2B&quot;&gt;需要能够查询ddl确定表结构字段的顺序，执行表结构同步处理&lt;/font&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;2、数据校验阶段：采用Bomb对外的7个接口与本地联思工厂对外的接口进行数据比对&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; color=&quot;#FF6B2B&quot;&gt;校验接口数据的一致性即可，核对板件关键信息是否一致&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="1020" width="740" height="830" as="geometry" />
+          <mxGeometry x="-40" y="1153" width="740" height="830" as="geometry" />
         </mxCell>
         <mxCell id="816tzz3vf455XlVjnZX5-41" value="补充信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-170" y="1100" width="120" height="60" as="geometry" />
@@ -384,6 +387,28 @@
           <mxGeometry x="-0.1354" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2NtN122uRhf_IB1GxrwC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;fontColor=#FF6B2B;" edge="1" parent="1" source="2NtN122uRhf_IB1GxrwC-6" target="2NtN122uRhf_IB1GxrwC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2NtN122uRhf_IB1GxrwC-10" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#FF6B2B;" vertex="1" connectable="0" parent="2NtN122uRhf_IB1GxrwC-9">
+          <mxGeometry x="-0.1154" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NtN122uRhf_IB1GxrwC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;fontColor=#FF6B2B;" edge="1" parent="1" source="2NtN122uRhf_IB1GxrwC-6" target="816tzz3vf455XlVjnZX5-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2NtN122uRhf_IB1GxrwC-13" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="2NtN122uRhf_IB1GxrwC-12">
+          <mxGeometry x="0.0558" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NtN122uRhf_IB1GxrwC-6" value="文件是否一致" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="600" y="742" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2NtN122uRhf_IB1GxrwC-8" value="调整联思文件" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="590" y="960" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
