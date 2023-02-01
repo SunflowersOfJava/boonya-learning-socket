@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T09:55:39.104Z" agent="5.0 (Windows)" etag="2zRjRjQ38yWurlKaPU4_" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T09:58:22.779Z" agent="5.0 (Windows)" etag="CyuDSYYjMGkfSXECta5o" version="20.8.13" type="github" pages="5">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="2022bomb服务独立">
     <mxGraphModel dx="1050" dy="4045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -413,7 +413,7 @@
         <mxCell id="2NtN122uRhf_IB1GxrwC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="2NtN122uRhf_IB1GxrwC-14" target="816tzz3vf455XlVjnZX5-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2NtN122uRhf_IB1GxrwC-14" value="联思客户端下载文件校验核对" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF6B2B;" vertex="1" parent="1">
+        <mxCell id="2NtN122uRhf_IB1GxrwC-14" value="联思客户端下载文件校验核对" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="690" y="200" width="170" height="80" as="geometry" />
         </mxCell>
       </root>
