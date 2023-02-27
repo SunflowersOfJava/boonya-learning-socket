@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T08:58:44.996Z" agent="5.0 (Windows)" etag="-DeW_I3qkEUwg2CnGvvF" version="20.8.15" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-02-27T09:04:25.482Z" agent="5.0 (Windows)" etag="VNqlRZ1imbF4gNeOmbr_" version="20.8.15" type="github" pages="6">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="2022bomb服务独立">
     <mxGraphModel dx="1050" dy="4045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -822,7 +822,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="x0YbWHrWXZbNNx0DheED" name="2023酷家乐下载">
-    <mxGraphModel dx="2327" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -841,13 +841,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-2" value="bomb-java-api" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="530" y="370" width="140" height="60" as="geometry" />
+          <mxGeometry x="530" y="429" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-8LshSEam5IErLW6fQcZ-44" value="1.轮询查询任务" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;strokeColor=#EA6B66;fontStyle=1" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-4" target="-8LshSEam5IErLW6fQcZ-43">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="-8LshSEam5IErLW6fQcZ-44" value="1.轮询查询任务" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;strokeColor=#EA6B66;fontStyle=1" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="459" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-4" value="sales-java-schedule-server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="45" y="370" width="170" height="60" as="geometry" />
+          <mxGeometry x="45" y="429" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontStyle=1" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-10" target="-8LshSEam5IErLW6fQcZ-11">
           <mxGeometry relative="1" as="geometry" />
@@ -878,7 +880,7 @@
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.416;entryY=1.029;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#EA6B66;fontStyle=1;entryPerimeter=0;" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-4" target="-8LshSEam5IErLW6fQcZ-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="187.5" y="350" as="sourcePoint" />
+            <mxPoint x="187.5" y="409" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-30" value="2.发送下载事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;fontStyle=1" vertex="1" connectable="0" parent="-8LshSEam5IErLW6fQcZ-28">
@@ -887,14 +889,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-27" value="BombDownloadSupportListener" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="32.5" y="60" width="235" height="70" as="geometry" />
+          <mxGeometry x="32.5" y="119" width="235" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-38" value="7.Seafile拆单附件" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.989;exitY=0.114;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;exitPerimeter=0;strokeColor=#00994D;fontStyle=1" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-29" target="-8LshSEam5IErLW6fQcZ-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-8LshSEam5IErLW6fQcZ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#EA6B66;fontStyle=1;entryPerimeter=0;" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-29" target="-8LshSEam5IErLW6fQcZ-43">
+        <mxCell id="-8LshSEam5IErLW6fQcZ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#EA6B66;fontStyle=1;entryPerimeter=0;" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-29">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-45" y="270" as="targetPoint" />
+            <mxPoint x="-180" y="419" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-49" value="7.下载完成处理本地推送任务OrderPushKjl状态更新" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;fontStyle=1" vertex="1" connectable="0" parent="-8LshSEam5IErLW6fQcZ-48">
@@ -906,10 +908,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-29" value="BombDownloadResponseEventListener" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="466.25" y="200" width="247.5" height="70" as="geometry" />
+          <mxGeometry x="466.25" y="259" width="247.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-31" target="-8LshSEam5IErLW6fQcZ-29">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="184" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-34" value="6.发送下载成功消息事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;fontStyle=1" vertex="1" connectable="0" parent="-8LshSEam5IErLW6fQcZ-33">
           <mxGeometry x="0.2698" relative="1" as="geometry">
@@ -917,37 +921,48 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-37" value="5.上传OSS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-31" target="-8LshSEam5IErLW6fQcZ-35">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="697.5" y="149" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-31" value="4.Adapter---&amp;gt;调用酷家乐下载实现" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="472.5" y="55" width="235" height="70" as="geometry" />
+          <mxGeometry x="472.5" y="114" width="235" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-32" value="3.按类型下载" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#000000;width=18;startSize=4.15;fontStyle=1" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="320" y="94.5" as="sourcePoint" />
-            <mxPoint x="460" y="94.5" as="targetPoint" />
+            <mxPoint x="320" y="153.5" as="sourcePoint" />
+            <mxPoint x="460" y="153.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="380" y="94.5" />
+              <mxPoint x="380" y="153.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-35" value="Oss" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="910" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="910" y="119" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-36" value="Seafile" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="910" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="910" y="239" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-40" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="930" y="260" width="60" height="80" as="geometry" />
+          <mxGeometry x="930" y="319" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-43" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-210" y="360" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-8LshSEam5IErLW6fQcZ-52" value="&lt;div&gt;酷家乐下载核心业务说明：&lt;/div&gt;&lt;div&gt;-----------------下载场景-------------&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.分销下载 （有自己的实现BombDownloadResponseEventListener）） &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;2.Bomb下载（有自己的实现BombDownloadResponseEventListener）&lt;/div&gt;&lt;div&gt;-----------------与下载无关&lt;/div&gt;&lt;div&gt;1.Oms不再与酷家乐下载业务相关&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;align=left;fontStyle=1;strokeColor=#FF3333;spacing=10;" vertex="1" parent="1">
+        <mxCell id="-8LshSEam5IErLW6fQcZ-52" value="&lt;div&gt;酷家乐下载核心业务说明：&lt;/div&gt;&lt;div&gt;-----------------下载场景-------------&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.分销下载 （有自己的实现BombDownloadResponseEventListener）） &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;2.Bomb下载（有自己的实现BombDownloadResponseEventListener）&lt;/div&gt;&lt;div&gt;-----------------与下载无关&lt;/div&gt;&lt;div&gt;1.Oms不再与酷家乐下载业务相关&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;align=left;fontStyle=1;strokeColor=#000000;spacing=10;" vertex="1" parent="1">
           <mxGeometry x="-10" y="-370" width="760" height="140" as="geometry" />
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-56" value="&lt;div&gt;底&lt;/div&gt;&lt;div&gt;层&lt;/div&gt;&lt;div&gt;包&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry y="-150" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-8LshSEam5IErLW6fQcZ-57" value="BombDownloadResponseEvent" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;fillColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="750" y="-90" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-8LshSEam5IErLW6fQcZ-58" value="BombDownloadRequestEvent" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;fillColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="750" y="-190" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-8LshSEam5IErLW6fQcZ-60" value="&lt;div&gt;事&lt;/div&gt;&lt;div&gt;件&lt;/div&gt;&lt;div&gt;解&lt;/div&gt;&lt;div&gt;耦&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="680" y="-130" width="60" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
