@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T09:04:25.482Z" agent="5.0 (Windows)" etag="VNqlRZ1imbF4gNeOmbr_" version="20.8.15" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-02-27T09:04:45.766Z" agent="5.0 (Windows)" etag="Rmt4Q37OGw_VW3uMfjfl" version="20.8.15" type="github" pages="6">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="2022bomb服务独立">
     <mxGraphModel dx="1050" dy="4045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -843,7 +843,7 @@
         <mxCell id="-8LshSEam5IErLW6fQcZ-2" value="bomb-java-api" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="530" y="429" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-8LshSEam5IErLW6fQcZ-44" value="1.轮询查询任务" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;strokeColor=#EA6B66;fontStyle=1" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-4">
+        <mxCell id="-8LshSEam5IErLW6fQcZ-44" value="1.轮询查询任务" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;strokeColor=#EA6B66;fontStyle=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-4" target="-8LshSEam5IErLW6fQcZ-43">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-150" y="459" as="targetPoint" />
           </mxGeometry>
@@ -894,7 +894,7 @@
         <mxCell id="-8LshSEam5IErLW6fQcZ-38" value="7.Seafile拆单附件" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.989;exitY=0.114;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;exitPerimeter=0;strokeColor=#00994D;fontStyle=1" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-29" target="-8LshSEam5IErLW6fQcZ-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-8LshSEam5IErLW6fQcZ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#EA6B66;fontStyle=1;entryPerimeter=0;" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-29">
+        <mxCell id="-8LshSEam5IErLW6fQcZ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=15;fontColor=#000000;strokeColor=#EA6B66;fontStyle=1;entryPerimeter=0;" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-29" target="-8LshSEam5IErLW6fQcZ-43">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-180" y="419" as="targetPoint" />
           </mxGeometry>
