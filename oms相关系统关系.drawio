@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T09:31:54.564Z" agent="5.0 (Windows)" etag="SN2S5JRxclpX372T4Gn1" version="20.8.15" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-02-27T09:45:17.523Z" agent="5.0 (Windows)" etag="uTwnkGgk6-YR7RkH2kCX" version="20.8.15" type="github" pages="6">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="2022bomb服务独立">
     <mxGraphModel dx="1050" dy="4045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -858,13 +858,13 @@
           <mxGeometry x="200" y="-70" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-11" value="lwj-common-design-kujiale" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="380" y="-70" width="150" height="50" as="geometry" />
+          <mxGeometry x="380" y="-70" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-15" value="Adpater" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="90" y="-100" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-16" value="kujialeAdapter" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="550" y="-100" width="80" height="100" as="geometry" />
+          <mxGeometry x="580" y="-100" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-17" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
