@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T09:04:45.766Z" agent="5.0 (Windows)" etag="Rmt4Q37OGw_VW3uMfjfl" version="20.8.15" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-02-27T09:05:34.839Z" agent="5.0 (Windows)" etag="cQL2RPNKYNpBjmDfINkj" version="20.8.15" type="github" pages="6">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="2022bomb服务独立">
     <mxGraphModel dx="1050" dy="4045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -928,13 +928,11 @@
         <mxCell id="-8LshSEam5IErLW6fQcZ-31" value="4.Adapter---&amp;gt;调用酷家乐下载实现" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="472.5" y="114" width="235" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-8LshSEam5IErLW6fQcZ-32" value="3.按类型下载" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#000000;width=18;startSize=4.15;fontStyle=1" edge="1" parent="1">
+        <mxCell id="-8LshSEam5IErLW6fQcZ-32" value="3.按类型下载" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#000000;width=8;startSize=4.15;fontStyle=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.019;entryY=0.557;entryDx=0;entryDy=0;entryPerimeter=0;endSize=4.15;" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-27" target="-8LshSEam5IErLW6fQcZ-31">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="320" y="153.5" as="sourcePoint" />
             <mxPoint x="460" y="153.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="380" y="153.5" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-8LshSEam5IErLW6fQcZ-35" value="Oss" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
