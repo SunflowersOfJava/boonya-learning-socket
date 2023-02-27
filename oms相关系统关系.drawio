@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T07:41:58.302Z" agent="5.0 (Windows)" etag="CDnmak1lcWAa25oKGlUc" version="20.8.15" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-27T07:35:50.142Z" agent="5.0 (Windows)" etag="v_jQDtYQmoiNjwvuJWUv" version="20.8.15" type="github" pages="6">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="2022bomb服务独立">
     <mxGraphModel dx="1050" dy="4045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -816,6 +816,44 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="378.55999999999983" y="292.24" as="sourcePoint" />
             <mxPoint x="437.4000000000001" y="396.64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="x0YbWHrWXZbNNx0DheED" name="2023酷家乐下载">
+    <mxGraphModel dx="1050" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-8LshSEam5IErLW6fQcZ-1" value="lwj-java-api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="20" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-8LshSEam5IErLW6fQcZ-2" value="bomb-java-api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-8LshSEam5IErLW6fQcZ-3" value="oms-java-api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-8LshSEam5IErLW6fQcZ-4" value="sales-java-api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-8LshSEam5IErLW6fQcZ-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="-8LshSEam5IErLW6fQcZ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="150" as="sourcePoint" />
+            <mxPoint x="200" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-8LshSEam5IErLW6fQcZ-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="150" as="sourcePoint" />
+            <mxPoint x="313" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-8LshSEam5IErLW6fQcZ-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="-8LshSEam5IErLW6fQcZ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="150" as="sourcePoint" />
+            <mxPoint x="570" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
