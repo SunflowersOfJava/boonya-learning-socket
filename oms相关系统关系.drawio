@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T09:05:34.839Z" agent="5.0 (Windows)" etag="cQL2RPNKYNpBjmDfINkj" version="20.8.15" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-02-27T09:09:38.392Z" agent="5.0 (Windows)" etag="ImEpmgtNGwGYltYtfQUK" version="20.8.15" type="github" pages="6">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="2022bomb服务独立">
     <mxGraphModel dx="1050" dy="4045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -835,7 +835,7 @@
         <mxCell id="-8LshSEam5IErLW6fQcZ-41" value="7.下载DesignSchemas持久化" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;strokeColor=#00994D;fontStyle=1" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-29" target="-8LshSEam5IErLW6fQcZ-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-8LshSEam5IErLW6fQcZ-51" value="&lt;font color=&quot;#000000&quot;&gt;2.Bomb发起下载&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.845;entryY=1.014;entryDx=0;entryDy=0;fontColor=#FF3333;strokeColor=#00994D;fontStyle=1;entryPerimeter=0;" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-2" target="-8LshSEam5IErLW6fQcZ-27">
+        <mxCell id="-8LshSEam5IErLW6fQcZ-51" value="&lt;font color=&quot;#000000&quot;&gt;2.Bomb发起下载（设计方案变更）&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.845;entryY=1.014;entryDx=0;entryDy=0;fontColor=#FF3333;strokeColor=#00994D;fontStyle=1;entryPerimeter=0;" edge="1" parent="1" source="-8LshSEam5IErLW6fQcZ-2" target="-8LshSEam5IErLW6fQcZ-27">
           <mxGeometry x="-0.3308" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
