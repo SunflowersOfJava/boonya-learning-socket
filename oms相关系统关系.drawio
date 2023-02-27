@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T08:56:44.520Z" agent="5.0 (Windows)" etag="P01Ypr5q_Dd1kjGlnxM9" version="20.8.15" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-02-27T08:57:24.297Z" agent="5.0 (Windows)" etag="vtRA2H7pjbz6k4PwpK8S" version="20.8.15" type="github" pages="6">
   <diagram id="G152VZkpTh_-b7L7PpDi" name="2022bomb服务独立">
     <mxGraphModel dx="1050" dy="4045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -943,7 +943,7 @@
         <mxCell id="-8LshSEam5IErLW6fQcZ-43" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-210" y="360" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-8LshSEam5IErLW6fQcZ-52" value="&lt;div&gt;酷家乐下载核心业务说明：&lt;/div&gt;&lt;div&gt;-----------------下载场景-------------&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.分销下载 （有自己的实现BombDownloadResponseEventListener）） &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;2.Bomb下载（有自己的实现BombDownloadResponseEventListener）&lt;/div&gt;&lt;div&gt;-----------------与下载无关&lt;/div&gt;&lt;div&gt;1.Oms不再有酷家乐下载业务处理&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;align=left;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="-8LshSEam5IErLW6fQcZ-52" value="&lt;div&gt;酷家乐下载核心业务说明：&lt;/div&gt;&lt;div&gt;-----------------下载场景-------------&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.分销下载 （有自己的实现BombDownloadResponseEventListener）） &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;2.Bomb下载（有自己的实现BombDownloadResponseEventListener）&lt;/div&gt;&lt;div&gt;-----------------与下载无关&lt;/div&gt;&lt;div&gt;1.Oms不再有酷家乐下载业务处理&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;fontColor=#000000;fillColor=#FFFFFF;align=left;fontStyle=1;strokeColor=#FF3333;spacing=10;" vertex="1" parent="1">
           <mxGeometry x="-10" y="-370" width="760" height="140" as="geometry" />
         </mxCell>
       </root>
